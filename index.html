@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakkeliste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>P A K K E L I S T E</h1>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Tilføj mere til listen">
+            <input type="number" id="quantity-input" placeholder="Antal">
+            <button id="add-task-btn">Tilføj til listen</button>
+        </div>
+
+        <div class="list-container">
+            <div class="todo-box">
+                <h2>MANGLER AT BLIVE PAKKET</h2>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="done-box">
+                <h2>PAKKET</h2>
+                <ul id="done-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
